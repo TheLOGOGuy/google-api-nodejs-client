@@ -7,7 +7,9 @@
     "node": ">=8"
   },
   "scripts": {
-    "test": "mocha ../build/test/samples"
+    "test": "mocha ../build/test/samples",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "axios": "^0.18.0",
@@ -16,9 +18,11 @@
     "nconf": "^0.10.0",
     "opn": "^5.3.0",
     "server-destroy": "^1.0.1",
-    "uuid": "^3.2.1"
+    "uuid": "^3.2.1",
+    "snyk": "^1.161.1"
   },
   "devDependencies": {
     "mocha": "^5.2.0"
-  }
+  },
+  "snyk": true
 }
