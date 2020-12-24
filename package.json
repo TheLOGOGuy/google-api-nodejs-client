@@ -8,8 +8,8 @@
   },
   "license": "Apache-2.0",
   "dependencies": {
-    "google-auth-library": "^2.0.0",
-    "googleapis-common": "^0.3.0"
+    "google-auth-library": "^3.0.0",
+    "googleapis-common": "^0.6.0"
   },
   "files": [
     "LICENSE",
@@ -100,7 +100,7 @@
     "@types/tmp": "^0.0.33",
     "@types/url-template": "^2.0.28",
     "assert-rejects": "^1.0.0",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "codecov": "^3.0.2",
     "copyfiles": "^2.0.0",
     "eslint": "^5.6.0",
@@ -110,7 +110,7 @@
     "gts": "^0.8.0",
     "hard-rejection": "^1.0.0",
     "intelli-espower-loader": "^1.0.1",
-    "js-green-licenses": "^0.5.0",
+    "js-green-licenses": "^1.0.0",
     "minimist": "^1.2.0",
     "mkdirp": "^0.5.1",
     "mocha": "^5.1.1",
